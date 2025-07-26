@@ -208,26 +208,26 @@
       </div>
     </section>
     <!-- Testimonials Section -->
-<section class="px-6 py-10 bg-gray-100">
-  <div class="relative flex justify-center items-center">
-
-     <div class="mask-auto mask-[url(/img/scribble.png)] bg-[url(/img/mountains.jpg)] ..."></div>
-    
-    <div class="absolute inset-0 flex flex-col justify-center items-center">
-      <input type="email" placeholder="Enter your Gmail address" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 w-full max-w-xs mb-2" />
-      <button class="bg-green-500 text-white px-4 py-2 rounded-md ml-2">Submit</button>
+<section class="px-6 py-10 bg-[url('assets/news-letter-bg.png')] bg-cover bg-center relative min-h-[500px]">
+  <div class="absolute inset-0 flex flex-col justify-center items-center">
+    <p class="text-white text-2xl font-bold mb-5">Subscribe to Our Newsletter</p>
+    <div class="flex flex-row justify-center items-center">
+      <input type="email" placeholder="Enter your Gmail address" class="px-4 py-2 rounded-none border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 w-[400px]" />
+      <button class="bg-orange-500 text-white px-4 py-2 rounded-none">Submit</button>
     </div>
   </div>
 </section>
     <!-- Footer -->
     <footer
-      class="flex flex-col md:flex-row justify-between items-center bg-white px-6 py-4"
+      class="flex flex-col md:flex-row justify-between items-center bg-white px-4 py-4 min-h-[280px]"
     >
-      <div class="w-full flex justify-center mt-3 md:mt-0">
-        <img src="assets/logo.png" alt="Footer Flower" class="ml-4 max-w-[200px] md:max-w-[250px] lg:max-w-[320px] w-auto h-auto" />
-
+      <div class="w-full flex  justify-start mt-3 md:mt-0">
+        <div class="flex flex-col items-start">
+          <img src="assets/logo.png" alt="Footer Flower" class="max-w-[200px] md:max-w-[250px] lg:max-w-[320px] w-auto h-auto" />
+          <p class="text-xs mt-2 max-w-xs">Its vibrant colors and blooming design <br>symbolize freshness, growth, and the joy that <br>flowers bring to every occasion.</p>
+        </div>
       </div>
-      <div class="flex gap-4 flex-wrap justify-center mt-4 md:mt-0">
+      <div class="grid grid-cols-2 gap-4 justify-center text-center mt-4 md:mt-0">
         <a href="#">Home</a>
         <a href="#">About Us</a>
         <a href="#">Blog</a>
@@ -239,7 +239,7 @@
         <a href="#">Terms of Service</a>
         <a href="#">Help Center</a>
       </div>
-      <div class="flex gap-4 mt-0">
+      <div class="flex gap-4 justify-start ">
         <a href="https://linkin.com" target="_blank" rel="noopener" aria-label="linkin">
           <img src="assets/icon-linkedin.png" alt="Twitter" class="w-8 h-8" />
         </a>
