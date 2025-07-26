@@ -174,36 +174,25 @@
           <!-- Badge now positioned on image above -->
       </div>
     </section>
-
-    <!-- Join Section -->
-    <section class="text-center py-10 bg-[url('your-bg.jpg')] bg-cover px-6">
-      <h2 class="text-white text-3xl font-bold mb-4">
-        Join the Colorful Bunch
-      </h2>
-      <input
-        type="text"
-        placeholder="Your Email"
-        class="px-4 py-2 rounded-md"
-      />
-      <button class="bg-white px-4 py-2 rounded-md ml-2">Subscribe</button>
-    </section>
-
     <!-- Latest Deals Section -->
+    
     <section class="px-6 py-10 text-center">
-      <h2 class="text-2xl font-bold mb-2">Latest Deals</h2>
-      <p class="mb-6">Special Offers for You</p>
-      <div class="flex flex-col gap-6 md:grid md:grid-cols-3">
-        <div class="border p-4 rounded shadow flex flex-col items-center">
-          <img src="assets/deal-bloom.png" alt="Deal" />
-          <h3 class="font-semibold mt-2">Daisy Combo</h3>
+      <h2 class="text-2xl font-bold mb-2"> <span class="text-orange-500">Latest</span> Deals</h2>
+      <p class="mb-6">Discover our latest deal: Enjoy 20% off all services for a limited time! <br>Don
+      't miss this mervalous oppurtunity!</p>
+      <div class="flex flex-col md:flex-row gap-6 container mx-auto px-4">
+        <!-- left side:two stacked images -->
+         <div class="md:w-1/2 flex flex-col gap-4">
+          <img src="assets/deal-bloom.png" alt="Deal" class="rounded-lg shadow-md object-cover" />
+          
+        
+          <img src="assets/deal-ana.png" alt="Deal" class="rounded-lg shadow-md object-cover" />
+        
         </div>
-        <div class="border p-4 rounded shadow flex flex-col items-center">
-          <img src="assets/deal-ana.png" alt="Deal" />
-          <h3 class="font-semibold mt-2">Ana Special</h3>
-        </div>
-        <div class="border p-4 rounded shadow flex flex-col items-center">
-          <img src="assets/deal-zabo.png" alt="Deal" />
-          <h3 class="font-semibold mt-2">Zabo Offer</h3>
+        <!-- right side: two images side by side -->
+        <div class="md:w1/2"></div>
+          <img src="assets/deal-zabo.png" alt="Deal" class="rounded-lg shadow-md object-cover w-full h-full"/>
+          
         </div>
       </div>
     </section>
@@ -219,15 +208,15 @@
 </section>
     <!-- Footer -->
     <footer
-      class="flex flex-col md:flex-row justify-between items-center bg-white px-4 py-4 min-h-[280px]"
+      class="flex flex-col md:flex-row justify-between bg-white px-4 py-4 min-h-[280px]"
     >
-      <div class="w-full flex  justify-start mt-3 md:mt-0">
-        <div class="flex flex-col items-start">
-          <img src="assets/logo.png" alt="Footer Flower" class="max-w-[200px] md:max-w-[250px] lg:max-w-[320px] w-auto h-auto" />
+      <div class="w-full flex justify-start items-center mt-3 md:mt-0">
+        <div class="flex flex-col items-start ml-12">
+          <img src="assets/logo.png" alt="Footer Flower" class="max-w-[180px] md:max-w-[220px] lg:max-w-[260px] w-auto h-auto" />
           <p class="text-xs mt-2 max-w-xs">Its vibrant colors and blooming design <br>symbolize freshness, growth, and the joy that <br>flowers bring to every occasion.</p>
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-4 justify-center text-center mt-4 md:mt-0">
+      <div class="grid grid-cols-2 gap-4 justify-start text-left w-full mt-4 md:mt-0">
         <a href="#">Home</a>
         <a href="#">About Us</a>
         <a href="#">Blog</a>
@@ -239,18 +228,18 @@
         <a href="#">Terms of Service</a>
         <a href="#">Help Center</a>
       </div>
-      <div class="flex gap-4 justify-start ">
+      <div class="flex gap-6 justify-start text-left w-full  md:mt-0 ml-8 mt-4">
         <a href="https://linkin.com" target="_blank" rel="noopener" aria-label="linkin">
-          <img src="assets/icon-linkedin.png" alt="Twitter" class="w-8 h-8" />
+          <img src="assets/icon-linkedin.png" alt="LinkedIn" class="w-14 h-10" />
         </a>
         <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
-          <img src="assets/icon-twitter.png" alt="Twitter" class="w-8 h-8" />
+          <img src="assets/icon-twitter.png" alt="Twitter" class="w-14 h-10" />
         </a>
         <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
-          <img src="assets/icon-facebook.png" alt="Facebook" class="w-8 h-8" />
+          <img src="assets/icon-facebook.png" alt="Facebook" class="w-14 h-10" />
         </a>
         <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
-          <img src="assets/icon-youtube.png" alt="YouTube" class="w-8 h-8" />
+          <img src="assets/icon-youtube.png" alt="YouTube" class="w-14 h-10" />
         </a>
       </div>
      
