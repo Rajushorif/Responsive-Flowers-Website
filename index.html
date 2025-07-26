@@ -1,0 +1,261 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Flowers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center px-6 py-4 bg-white">
+      <div class="text-xl font-bold">
+        <img src="assets/logo.png" alt="Flower" />
+      </div>
+      <div class="hidden md:flex gap-6 items-center">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Cart 🛒</a>
+      </div>
+      <div class="md:hidden">🛒</div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section
+      class="flex flex-col-reverse md:flex-row items-center px-6 py-10 bg-white"
+    >
+      <div class="md:w-1/2 space-y-4">
+        <h1 class="text-3xl font-bold">Always Fresh Flowers</h1>
+        <p>
+          Flowers are the beautiful reproductive structures of flowering plants,
+          often characterized by their vibrant colors and fragrant scents. They
+          play a crucial role in ecosystems by attracting pollinators like bees
+          and butterflies, which helps in the reproduction of plants. Beyond
+          their biological function, flowers are widely appreciated for their .
+        </p>
+      </div>
+      <div class="md:w-1/2">
+        <img src="assets/hero-flower.png" alt="Banner" />
+      </div>
+    </section>
+
+    <!-- Plants Section -->
+    <section class="text-center py-10 px-6">
+      <h2 class="text-2xl font-bold mb-2">Our Plants</h2>
+      <p class="mb-6">Choose from our beautiful selection</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <!-- Repeat  card 8 times -->
+        <div class="border p-4 rounded-md shadow">
+          <img src="assets/sample-flower-image.png" alt="Plant" class="mb-2" />
+          <h3 class="font-semibold">Rose</h3>
+          <p>$15</p>
+          <button
+            onclick="alert('Flower Added to Cart')"
+            class="mt-2 bg-green-200 px-4 py-1 rounded"
+          >
+            Add to Cart
+          </button>
+        </div>
+        <div class="border p-4 rounded-md shadow">
+          <img src="assets/sample-flower-image.png" alt="Plant" class="mb-2" />
+          <h3 class="font-semibold">Rose</h3>
+          <p>$15</p>
+          <button
+            onclick="alert('Flower Added to Cart')"
+            class="mt-2 bg-green-200 px-4 py-1 rounded"
+          >
+            Add to Cart
+          </button>
+        </div>
+        <div class="border p-4 rounded-md shadow">
+          <img src="assets/sample-flower-image.png" alt="Plant" class="mb-2" />
+          <h3 class="font-semibold">Rose</h3>
+          <p>$15</p>
+          <button
+            onclick="alert('Flower Added to Cart')"
+            class="mt-2 bg-green-200 px-4 py-1 rounded"
+          >
+            Add to Cart
+          </button>
+        </div>
+        <div class="border p-4 rounded-md shadow">
+          <img src="assets/sample-flower-image.png" alt="Plant" class="mb-2" />
+          <h3 class="font-semibold">Rose</h3>
+          <p>$15</p>
+          <button
+            onclick="alert('Flower Added to Cart')"
+            class="mt-2 bg-green-200 px-4 py-1 rounded"
+          >
+            Add to Cart
+          </button>
+        </div>
+        <div class="border p-4 rounded-md shadow">
+          <img src="assets/sample-flower-image.png" alt="Plant" class="mb-2" />
+          <h3 class="font-semibold">Rose</h3>
+          <p>$15</p>
+          <button
+            onclick="alert('Flower Added to Cart')"
+            class="mt-2 bg-green-200 px-4 py-1 rounded"
+          >
+            Add to Cart
+          </button>
+        </div>
+        <div class="border p-4 rounded-md shadow">
+          <img src="assets/sample-flower-image.png" alt="Plant" class="mb-2" />
+          <h3 class="font-semibold">Rose</h3>
+          <p>$15</p>
+          <button
+            onclick="alert('Flower Added to Cart')"
+            class="mt-2 bg-green-200 px-4 py-1 rounded"
+          >
+            Add to Cart
+          </button>
+        </div>
+        <div class="border p-4 rounded-md shadow">
+          <img src="assets/sample-flower-image.png" alt="Plant" class="mb-2" />
+          <h3 class="font-semibold">Rose</h3>
+          <p>$15</p>
+          <button
+            onclick="alert('Flower Added to Cart')"
+            class="mt-2 bg-green-200 px-4 py-1 rounded"
+          >
+            Add to Cart
+          </button>
+        </div>
+        <div class="border p-4 rounded-md shadow">
+          <img src="assets/sample-flower-image.png" alt="Plant" class="mb-2" />
+          <h3 class="font-semibold">Rose</h3>
+          <p>$15</p>
+          <button
+            onclick="alert('Flower Added to Cart')"
+            class="mt-2 bg-green-200 px-4 py-1 rounded"
+          >
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plants Lover Section -->
+    <section
+      class="flex flex-col md:flex-row items-center px-6 py-10 bg-blue-50"
+    >
+      <div class="md:w-1/2">
+        <div class="relative ">
+          <img src="assets/flower-store.png" alt="Plant Lover" />
+          <span class="absolute -top-16 -right-16 hidden md:block">
+            <img src="assets/trusted-badge.png" alt="trusted-badge" class="w-80 h-80 animate-spin" />
+          </span>
+        </div>
+      </div>
+      <div class="md:w-1/2 space-y-4">
+        <h2 class="text-2xl font-bold">Plants Lover Benefits</h2>
+        <ul class="list-disc list-inside">
+          <li>
+            Passionate about nurturing green spaces and finding joy in every
+            bloom, I bring a keen eye for growth and beauty to all my endeavors.
+          </li>
+          <li>
+            My love for plants and flowers extends beyond a hobby, inspiring a
+            deep appreciation for natural systems and sustainable practices.
+          </li>
+          <li>
+            Just as a gardener tends to a delicate plant, I believe in fostering
+            environments where creativity and collaboration can truly flourish.
+          </li>
+          <li>
+            Continuously captivated by the resilience and diversity of the
+            botanical world, I approach challenges with patience and a belief in
+            gradual, impactful development.
+          </li>
+        </ul>
+        <div class="mt-2 hidden md:block animate-spin">
+          <!-- Badge now positioned on image above -->
+      </div>
+    </section>
+
+    <!-- Join Section -->
+    <section class="text-center py-10 bg-[url('your-bg.jpg')] bg-cover px-6">
+      <h2 class="text-white text-3xl font-bold mb-4">
+        Join the Colorful Bunch
+      </h2>
+      <input
+        type="text"
+        placeholder="Your Email"
+        class="px-4 py-2 rounded-md"
+      />
+      <button class="bg-white px-4 py-2 rounded-md ml-2">Subscribe</button>
+    </section>
+
+    <!-- Latest Deals Section -->
+    <section class="px-6 py-10 text-center">
+      <h2 class="text-2xl font-bold mb-2">Latest Deals</h2>
+      <p class="mb-6">Special Offers for You</p>
+      <div class="flex flex-col gap-6 md:grid md:grid-cols-3">
+        <div class="border p-4 rounded shadow flex flex-col items-center">
+          <img src="assets/deal-bloom.png" alt="Deal" />
+          <h3 class="font-semibold mt-2">Daisy Combo</h3>
+        </div>
+        <div class="border p-4 rounded shadow flex flex-col items-center">
+          <img src="assets/deal-ana.png" alt="Deal" />
+          <h3 class="font-semibold mt-2">Ana Special</h3>
+        </div>
+        <div class="border p-4 rounded shadow flex flex-col items-center">
+          <img src="assets/deal-zabo.png" alt="Deal" />
+          <h3 class="font-semibold mt-2">Zabo Offer</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+<section class="px-6 py-10 bg-gray-100">
+  <div class="relative flex justify-center items-center">
+
+     <div class="mask-auto mask-[url(/img/scribble.png)] bg-[url(/img/mountains.jpg)] ..."></div>
+    
+    <div class="absolute inset-0 flex flex-col justify-center items-center">
+      <input type="email" placeholder="Enter your Gmail address" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400 w-full max-w-xs mb-2" />
+      <button class="bg-green-500 text-white px-4 py-2 rounded-md ml-2">Submit</button>
+    </div>
+  </div>
+</section>
+    <!-- Footer -->
+    <footer
+      class="flex flex-col md:flex-row justify-between items-center bg-green-100 px-6 py-4"
+    >
+     
+      <div class="flex gap-4">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Help Center</a>
+      </div>
+      <div class="flex gap-4 mt-4 md:mt-0">
+         <div class="w-full flex justify-center mt-6">
+        <img src="assets/logo.png" alt="Footer Flower" class="max-w-xs md:max-w-md lg:max-w-lg w-full h-auto" />
+      </div>
+        <a href="https://linkin.com" target="_blank" rel="noopener" aria-label="linkin">
+          <img src="assets/icon-linkedin.png" alt="Twitter" class="w-8 h-8" />
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+          <img src="assets/icon-twitter.png" alt="Twitter" class="w-8 h-8" />
+        </a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+          <img src="assets/icon-facebook.png" alt="Facebook" class="w-8 h-8" />
+        </a>
+        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
+          <img src="assets/icon-youtube.png" alt="YouTube" class="w-8 h-8" />
+        </a>
+      </div>
+     
+    
+      </div>
+    </footer>
+  </body>
+</html>
